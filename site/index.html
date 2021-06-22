@@ -3,6 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hello Coursera! Module 1 HTML</title>
+		<style>
+			header, nav, h1 {
+				text-align: center;
+			}
+			.sectionOne {
+				color: blue;
+			}
+			.sectionTwo {
+				color: turquoise;
+				background-color: black;
+			}
+			#list {
+				font-style: italic;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -24,7 +39,7 @@
 			<article>article 4</article>
 		</section>
 		<hr>
-		<section><b>Ordered &amp; Unordered list</b>
+		<section class="sectionOne"><b>Ordered &amp; Unordered list</b>
 			<ul>ul = 'unordered list'
 				<li>li = 'list'</li>
 			</ul>
@@ -32,7 +47,7 @@
 				<li>example of ordered list</li>
 			</ol>
 			The shopping list
-			<ul>
+			<ul id="list">
 				<li>Milk</li>
 				<li>Eggs</li>
 				<li>Cookies
@@ -46,7 +61,7 @@
 			</ul>
 		</section>
 		<hr>
-		<section><b>HTML entity reference</b>
+		<section class="sectionTwo"><b>HTML entity reference</b>
 			<div>
 				<span> &lt; = less than</span>
 				<br>
