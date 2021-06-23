@@ -1,0 +1,9 @@
+header {
+	color: #6495ED;
+	text-decoration: underline;
+}
+
+body {
+	max-width: 600px;
+	margin: auto;
+}

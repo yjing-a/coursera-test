@@ -3,12 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hello Coursera! Module 1 HTML</title>
+		<link rel="stylesheet" href="style.css">
 		<style>
 			header, nav, h1 {
 				text-align: center;
 			}
-			.sectionOne {
-				color: blue;
+			.sectionOne li {
+				color: maroon;
+				background-color: #FFF8DC;
 			}
 			.sectionTwo {
 				color: turquoise;
@@ -16,6 +18,13 @@
 			}
 			#list {
 				font-style: italic;
+			}
+			section > p {
+				color: purple;
+				font-size: 20px;
+			}
+			p.child {
+				background-color: orange;
 			}
 		</style>
 	</head>
@@ -75,7 +84,8 @@
 			</div>
 		</section>
 		<hr>
-		<section><b>Types of link</b>
+		<section>
+			<b>Types of link</b>
 			<p>
 				Internal links: "same-directory.html"
 				<br>
@@ -89,6 +99,25 @@
 				<br>
 			</p>
 		</section>
+		<hr>
+		<h2>CSS</h2>
+		<section>
+			<b>Types of combined selector:</b>
+			<p>element class: element.class</p>
+			<p>descendant selector: article element</p>
+		</section>
+		<p class="child">child selector: article > element</p>
+		<hr>
+		<div>
+			<b>Pseudo class selectors</b>
+			<ul>
+				<li>:link</li>
+				<li>:visited</li>
+				<li>:hover</li>
+				<li>:active</li>
+				<li>nth-child</li>
+			</ul>
+		</div>
 		<hr>
 		<aside>
 			Aside: related information but not as important
